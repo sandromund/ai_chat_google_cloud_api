@@ -2,6 +2,13 @@
 Deploy ML Models With Google Cloud Run
 
 
+# Stuff used
+Google Cloud Run + Container Registry
+Docker
+gcloud API
+Flask 
+Hugging Face Transformers
+
 # Docker 
 ````commandline
 docker build -t chat-api .

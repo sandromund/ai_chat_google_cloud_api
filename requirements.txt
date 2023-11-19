@@ -1,6 +1,9 @@
+flask
+-f git+https://github.com/huggingface/transformers
 torch~=2.1.1
-transformers~=4.35.2
-Flask~=3.0.0
+torchvision
+torchaudio
+--index-url https://download.pytorch.org/whl/cu118
 gunicorn ~=21.2.0
 einops ~= 0.7.0
 accelerate~=0.24.1
